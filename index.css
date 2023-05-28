@@ -16,3 +16,8 @@ header#cabecalho h1{
     font-family: 'Fonte-computador';
     color: rgba(0, 0, 0, .7);
 }
+
+a.dowload {
+    color: rgba(0, 0, 0, .7);
+    font-family: 'fonte1';
+}
