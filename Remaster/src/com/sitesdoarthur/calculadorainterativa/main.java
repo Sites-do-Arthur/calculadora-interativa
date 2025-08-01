@@ -5,6 +5,9 @@ public class main {
     public static void main(String[] args) {
         boolean continuar = true;
         Scanner teclado = new Scanner(System.in);
+        int n1 = 0;
+        int n2 = 0;
+
         System.out.println("********************************************************************************");
         System.out.println("****************************CALCULADORA INTERATIVA******************************");
         System.out.println("********************************************************************************");
@@ -19,10 +22,12 @@ public class main {
             System.out.println("7 - Sair");
             System.out.println("Diga sua opção: ");
             byte opcao = teclado.nextByte();
-            System.out.print("Digite o primeiro número: ");
-            int n1 = teclado.nextInt();
-            System.out.print("Digite o segundo número: ");
-            int n2 = teclado.nextInt();
+            if(opcao >= 1 && opcao < 7) {
+                System.out.print("Digite o primeiro número: ");
+                n1 = teclado.nextInt();
+                System.out.print("Digite o segundo número: ");
+                n2 = teclado.nextInt();
+            }
             switch (opcao) {
                 case 1:
                     int soma = n1 + n2;
