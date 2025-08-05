@@ -1,7 +1,7 @@
 package com.sitesdoarthur.calculadorainterativa;
 import java.util.Scanner;
 
-public class main {
+public class Calc {
     public static void main(String[] args) {
         // Variáveis para controle do loop e números
         boolean continuar = true;
