@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Calc {
     public static void main(String[] args) {
         // Variáveis para controle do loop e números
-        boolean continuar = true;
         Scanner teclado = new Scanner(System.in);
         int n1 = 0;
         int n2 = 0;
@@ -13,7 +12,7 @@ public class Calc {
         System.out.println("****************************CALCULADORA INTERATIVA******************************");
         System.out.println("********************************************************************************");
         // Loop para manter a calculadora ativa até que o usuário decida sair
-        while (continuar) {
+        while (true) {
             // Simula um menu de opções em modo texto
             System.out.println("****MENU****");
             System.out.println("1 - Soma");
