@@ -9,7 +9,7 @@ public class Calc {
         int n2 = 0;
         // Exibe o cabeçalho da calculadora
         System.out.println("********************************************************************************");
-        System.out.println("****************************CALCULADORA INTERATIVA******************************");
+        System.out.println("****************************CALCULADORA BOSTIFERA******************************");
         System.out.println("********************************************************************************");
         // Loop para manter a calculadora ativa até que o usuário decida sair
         while (true) {
