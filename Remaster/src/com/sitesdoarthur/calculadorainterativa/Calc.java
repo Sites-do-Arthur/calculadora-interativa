@@ -76,15 +76,14 @@ public class Calc {
                  }
                     break;
                 case 7:
-                    // Caso 7: Sair
-                    continuar = false;
+                    // Caso 7: Saida
                     System.out.println("Saindo da calculadora. Até logo!");
                     teclado.close();
                     System.exit(0);
                     break;
                 default:
                     // Caso inválido: Exibe mensagem de erro
-                    System.out.println("Opção inválida! Por favor, escolha uma opção válida.");
+                    System.err.println("Opção inválida! Por favor, escolha uma opção válida.");
                     break;
                     // Recomeça o programa caso não tenha sido encerrado
             }
